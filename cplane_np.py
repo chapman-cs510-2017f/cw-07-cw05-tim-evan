@@ -78,7 +78,7 @@ class ArrayComplexPlane(AbsComplexPlane):
         x = np.linspace(self.xmin,self.xmax,self.xlen)
         y = np.linspace(self.ymin,self.ymax,self.ylen)
         xx, yy = np.meshgrid(x, y)
-        self.plane = xx + yy*1j                                    ##-yy1j so that the value is flipped and the top right of the plane is positive real and positive imaginary so that it conforms with convention
+        self.plane = xx + yy*1j       ##-yy1j so that the value is flipped and the top right of the plane is positive real and positive imaginary so that it conforms with convention
 
         self.plane = pd.DataFrame(self.plane, index=y*1j+0, columns=x)
 

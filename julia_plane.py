@@ -54,30 +54,19 @@ class JuliaPlane(ArrayComplexPlane):
            Null: returns nothing
         """
         self.fs = []
-        self.__setPlane(self.xmin,self.xmax,self.xlen,self.ymin,self.ymax,self.ylen)
+        self.zoom(self.xmin,self.xmax,self.xlen,self.ymin,self.ymax,self.ylen)
         self.apply(julia(c))
         return
     def show(self):
-        #plt.figure(figsize=(9, 6), dpi=85)
-        #plt.subplot(111)
+        plt.figure(figsize=(10, 10), dpi=85)
 
-        #plt.axes([0.025, 0.025, 0.95, 0.95])
-        plt.imshow(self.plane, interpolation='nearest', cmap='bone', origin='lower')
-        plt.colorbar(shrink=.92)      #creates color bar legend
+        plt.axes([0.025, 0.025, 0.95, 0.95])
+        plt.imshow(self.getPlane(), interpolation='nearest', cmap=plt.cm.hot, origin='lower')
+        plt.colorbar(shrink=.92)      #creates color bar legend shrink=.92
 
-        #plt.xticks(())
-        #plt.yticks(())
+        plt.xticks(())
+        plt.yticks(())
         plt.show()
-        pass
-
-
-#x = 5
-#y = 2
-#z = complex(x,y)
-
-#myplane = JuliaPlane(z)
-#myplane.printPlane()
-#myplane.show()
 
 
 
