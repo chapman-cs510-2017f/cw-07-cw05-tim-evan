@@ -1,6 +1,6 @@
 # CS510 CW 7
 
-**Author(s):** **CHANGME**
+**Author(s):** **Evan A Walker, Tim Frenzel**
 
 [![Build Status](https://travis-ci.org/chapman-cs510-2017f/cw-07-YOURNAME.svg?branch=master)](https://travis-ci.org/chapman-cs510-2017f/cw-07-YOURNAME)
 
@@ -33,7 +33,7 @@
 
 Analyze in this section what you found useful about this assignment in your own words. Include any lingering questions or comments that you may have.
 
-**CHANGEME**
+****
 
 ## Honor Pledge
 
@@ -44,4 +44,4 @@ I pledge that all the work in this repository is my own with only the following 
 
 Signed,
 
-**YOURNAME**
+**Evan A Walker, Tim Frenzel**
