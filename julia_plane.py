@@ -13,10 +13,10 @@ from cplane_np import ArrayComplexPlane
 
 ###
 # Name: Evan A Walker, Tim Frenzel
-# Student ID: 01932978 ,
+# Student ID: 01932978 , 002267120
 # Email: walke208@mail.chapman.edu , frenz102@mail.chapman.edu
 # Course: CS510 Fall 2017
-# Assignment: Homework 06
+# Assignment: Classwork 07
 ###
 
 
